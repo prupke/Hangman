@@ -1,6 +1,6 @@
 # Dictionary
 
-**TODO: Add description**
+### This is a Coding Gnome course to learn Elixir
 
 ## Installation
 
