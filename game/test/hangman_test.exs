@@ -9,7 +9,8 @@ defmodule GameTest do
         game = Game.new_game()
         assert game.turns_left == 7
         assert game.game_state == :initializing
-        assert length(game.letters) > 0     
+        assert length(game.letters) > 0
+        assert Enum.join(game.letters) =~ ~r/(^[^a-z]*)/
     end
     
 end
