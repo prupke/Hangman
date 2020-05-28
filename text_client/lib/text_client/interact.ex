@@ -16,8 +16,4 @@ defmodule TextClient.Interact do
         }
     end
 
-    # def play(state) do
-
-    #     play(state)
-    # end
 end
